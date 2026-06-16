@@ -6,5 +6,4 @@ __pycache__/
 product_hunt_raw_api_output/
 *.csv
 !data_sample.csv
-!datasets/*.csv
 !logs/criterion4/**/*.csv
