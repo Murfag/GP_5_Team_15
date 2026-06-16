@@ -1,0 +1,37 @@
+{
+  "model": "TextCNN",
+  "params": {
+    "architecture": "Embedding + Conv1d + max pooling",
+    "embed_dim": 128,
+    "num_filters": 64,
+    "kernel_sizes": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "dropout": 0.35,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "best_threshold": 0.5099999999999999,
+  "valid": {
+    "accuracy": 0.6480255379522346,
+    "precision": 0.3025803809133729,
+    "recall": 0.5822660098522168,
+    "f1": 0.39822114412775417,
+    "roc_auc": 0.6719789880207159,
+    "threshold": 0.5099999999999999,
+    "loss": 1.1582604183451244
+  },
+  "test": {
+    "accuracy": 0.6540656430305515,
+    "precision": 0.312210953346856,
+    "recall": 0.6066530033107362,
+    "f1": 0.41225626740947074,
+    "roc_auc": 0.6884495011229826,
+    "threshold": 0.5099999999999999,
+    "loss": 1.12531680480023
+  }
+}

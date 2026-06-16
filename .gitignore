@@ -1,7 +1,9 @@
 .env
 __pycache__/
 .ipynb_checkpoints/
+.DS_Store
 
 product_hunt_raw_api_output/
 *.csv
 !data_sample.csv
+!logs/criterion4/**/*.csv

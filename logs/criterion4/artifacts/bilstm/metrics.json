@@ -1,0 +1,33 @@
+{
+  "model": "BiLSTM",
+  "params": {
+    "architecture": "Embedding + 2-layer BiLSTM + MLP",
+    "embed_dim": 128,
+    "hidden_dim": 128,
+    "num_layers": 2,
+    "bidirectional": true,
+    "dropout": 0.35,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "best_threshold": 0.4699999999999999,
+  "valid": {
+    "accuracy": 0.6444786001418775,
+    "precision": 0.3102884615384615,
+    "recall": 0.6358620689655172,
+    "f1": 0.41705977382875603,
+    "roc_auc": 0.6962964178147533,
+    "threshold": 0.4699999999999999,
+    "loss": 1.0766081140238106
+  },
+  "test": {
+    "accuracy": 0.6511019327174701,
+    "precision": 0.32070457824007287,
+    "recall": 0.6659309475011824,
+    "f1": 0.43291995490417134,
+    "roc_auc": 0.7126868691078609,
+    "threshold": 0.4699999999999999,
+    "loss": 1.0488887636501492
+  }
+}

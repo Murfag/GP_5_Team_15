@@ -1,0 +1,27 @@
+{
+  "model": "TF-IDF + SGD baseline",
+  "params": {
+    "architecture": "TF-IDF ngrams + SGDClassifier",
+    "ngram_range": "(1, 2)",
+    "max_features": 20000,
+    "min_df": 2,
+    "class_weight": "balanced"
+  },
+  "best_threshold": 0.49499999999999994,
+  "valid": {
+    "accuracy": 0.646212658626941,
+    "precision": 0.31182484567901236,
+    "recall": 0.6370443349753695,
+    "f1": 0.41870102959269573,
+    "roc_auc": 0.7003496835608152,
+    "threshold": 0.49499999999999994
+  },
+  "test": {
+    "accuracy": 0.654160229529905,
+    "precision": 0.32047500776156473,
+    "recall": 0.6509538073466814,
+    "f1": 0.42950018203567897,
+    "roc_auc": 0.7111331305364945,
+    "threshold": 0.49499999999999994
+  }
+}

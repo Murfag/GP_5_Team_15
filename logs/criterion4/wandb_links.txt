@@ -1,0 +1,20 @@
+Weights & Biases logs for Criterion 4
+
+Project:
+https://wandb.ai/ainikitadanik-hse/gp5-product-hunt-nlp
+
+Runs:
+TF-IDF + SGD baseline:
+https://wandb.ai/ainikitadanik-hse/gp5-product-hunt-nlp/runs/81e69if8
+
+Embedding Pooling:
+https://wandb.ai/ainikitadanik-hse/gp5-product-hunt-nlp/runs/bm7twi3x
+
+TextCNN:
+https://wandb.ai/ainikitadanik-hse/gp5-product-hunt-nlp/runs/q015bp0w
+
+BiLSTM:
+https://wandb.ai/ainikitadanik-hse/gp5-product-hunt-nlp/runs/m30v4wa5
+
+Final summary:
+https://wandb.ai/ainikitadanik-hse/gp5-product-hunt-nlp/runs/qdqfgeki

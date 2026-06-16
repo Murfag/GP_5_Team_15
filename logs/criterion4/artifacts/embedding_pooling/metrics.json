@@ -1,0 +1,31 @@
+{
+  "model": "Embedding Pooling",
+  "params": {
+    "architecture": "Embedding + mean/max pooling + MLP",
+    "embed_dim": 128,
+    "hidden_dim": 128,
+    "dropout": 0.35,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "best_threshold": 0.5349999999999999,
+  "valid": {
+    "accuracy": 0.6496413651769528,
+    "precision": 0.31278830110903916,
+    "recall": 0.6279802955665025,
+    "f1": 0.417583857442348,
+    "roc_auc": 0.6938362320743312,
+    "threshold": 0.5349999999999999,
+    "loss": 1.055440248952198
+  },
+  "test": {
+    "accuracy": 0.6559889018507425,
+    "precision": 0.3204966991512103,
+    "recall": 0.6429134478953177,
+    "f1": 0.427754759532176,
+    "roc_auc": 0.7079470593358638,
+    "threshold": 0.5349999999999999,
+    "loss": 1.04209278293759
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "target": "successful_launch",
+  "success_score_source": "precomputed in CSV",
+  "text_columns": [
+    "description"
+  ],
+  "n_rows": 158581,
+  "vocab_size": 20000,
+  "best_test_model_by_f1": "BiLSTM",
+  "threshold_note": "threshold selected on validation by F1",
+  "output_dir": "/content/drive/MyDrive/GP5/criterion4_outputs",
+  "artifacts": {
+    "Embedding Pooling": "/content/drive/MyDrive/GP5/criterion4_outputs/artifacts/embedding_pooling/model.pt",
+    "TextCNN": "/content/drive/MyDrive/GP5/criterion4_outputs/artifacts/textcnn/model.pt",
+    "BiLSTM": "/content/drive/MyDrive/GP5/criterion4_outputs/artifacts/bilstm/model.pt"
+  }
+}
